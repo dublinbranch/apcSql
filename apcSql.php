@@ -7,7 +7,7 @@ function apcCached(string $sql, DBWrapper $db, int $ttl = 60)
     if ($res !== false) {
         return $res;
     }
-    $res = $db->query($sql);
+    $res = $db->getLineSS($sql);
     apcu_store($sql,$res,$ttl);
     return $res;
 }
