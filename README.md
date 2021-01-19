@@ -3,7 +3,7 @@ Add in composer.json (if not existent yet)
 ```
 ,"repositories":[
 
-    ]
+]
 ```
 
 And inside 
