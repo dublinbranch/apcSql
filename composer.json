@@ -1,5 +1,5 @@
 {
-    "name": "TAM/apcSql",
+    "name": "tam/apcsql",
     "type": "library",
     "description": "1 function to call apcu",
     "authors": [
